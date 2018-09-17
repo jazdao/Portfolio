@@ -1,4 +1,48 @@
+/* Top Navigation Bar */
+.topnav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	background-color: #164d56;
+	overflow: hidden;
+	height: 70px;
+	text-align: center;
+}
+
+.topnav a {
+	float: center;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 15px 30px;
+	line-height: 65px;
+	font-size: 20px;
+}
+
+.topnav a:hover {
+	color: #a0e3f0;
+	font-size: 22px;
+}
+
+.topnav a.active {
+	color: #a0e3f0;
+	font-size: 22px;
+}
+
+/* Logo */
+.logo {
+	width: 20%;
+	height: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+/* Name */
 h1 {
+	font-size: 45px;
 	font-family: Verdana;
-	color: #00b6cb;
+	text-align: center;
 }
