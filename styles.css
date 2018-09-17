@@ -92,6 +92,10 @@ p {
 }
 
 /* Sections */
+.home {
+	overflow: auto;
+}
+
 .about {
 	display: inline-block;
 	background-color: #12a3b4;
