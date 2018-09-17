@@ -3,6 +3,7 @@
 <html lang="en">
 
 <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
 	<head>
 
@@ -30,7 +31,7 @@
 		<!-- Link reference to 16x16 icon for website (.ico) -->
 		<link href="logo.png" rel="icon"/>
 
-		<title>Jasmine Dao - an aspiring full stack developer | Home</title>
+		<title>Jasmine Dao - an aspiring full stack developer</title>
 
 	</head>
 
@@ -63,26 +64,62 @@
 			</pre>
 		-->
 
+		<!--
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			// Add smooth scrolling to all links
+  				$("a").on('click', function(event) {
 
-		<div class="topnav">
+    			// Make sure this.hash has a value before overriding default behavior
+    				if (this.hash !== "") {
+      				// Prevent default anchor click behavior
+      					event.preventDefault();
+
+      					// Store hash
+      					var hash = this.hash;
+
+      					// Using jQuery's animate() method to add smooth page scroll
+      					// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      					$('html, body').animate({
+        				scrollTop: $(hash).offset().top
+      				}, 800, function(){
+
+        					// Add hash (#) to URL when done scrolling (default click behavior)
+        					window.location.hash = hash;
+      					});
+    				} // End if
+  				});
+			});
+		</script>
+		-->
+
+
+		<nav class="topnav">
 			<a class="active" href="#home">h o m e</a>
 			<a href="#about">a b o u t</a>
-			<a href="#resume">p r o j e c t s</a>
+			<a href="#projects">p r o j e c t s</a>
 			<a href="#contact">c o n t a c t</a>
-		</div>
+		</nav>
 
-		<div class="home">
+		<div class="home" id="home">
 			<img class="logo" src="logo.png" alt="logo">
 		
 			<h1>Jasmine Dao</h1>
 			<h4>an aspiring full stack developer</h4>
 		</div>
 
-		<div class="about">
-			<h3>About Me</h3>
+		<div class="about" id="about">
+			 <h2>About Me</h2>
+
+			 <h3>WHO?</h3>
 
 			<p>
-				I'm a student
+				I'm an <b>avid programmer</b> and <b>aspiring web and mobile developer</b> with an interest in creative pursuits and an unfortunate obsession with cats.  
+			</p>
+
+			<p>
+				I'm <b>passionate</b> about technology, art, and music.  You can find me reading, drawing, hacking, or playing piano in my free time. 
 			</p>
 		</div>
 

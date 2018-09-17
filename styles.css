@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	padding: 0;
 	margin: 0;
@@ -51,52 +55,63 @@ body {
 	width: 20%;
 	height: 20%;
 	display: block;
-	float: left;
-	margin-left: 275px;
-	margin-top: 125px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 110px;
 }
 
 /* Headings */
 h1 {
-	float: left;
 	font-size: 70px;
 	font-family: 'Megrim', cursive;
 	color: #17616b;
-	margin-left: 25px;
-	margin-top: 215px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
 	margin-bottom: 0;
+	text-align: center;
 }
 
 h4 {
-	float: left;
 	font-size: 18px;
-	font-family: Arial;
+	font-family: 'Poppins', sans-serif;
 	color: #00b6cb;
-	margin-left: 50px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 0;
+	text-align: center;
 }
 
-h3 {
-	font-size: 45px;
+h2 {
+	font-size: 50px;
 	font-family: Megrim, cursive;
 	border-bottom: solid;
 	border-bottom-width: 2px;
+	padding-bottom: 2px;
 	text-align: center;
+}
 
+h3 {
+	font-size: 35px;
+	text-align: center;
+	font-family: 'Megrim', cursive;
+	margin-bottom: 0;
 }
 
 p {
-	font-size: 20px;
-	font-family: Arial;
+	font-size: 22px;
+	font-family: 'Poppins', sans-serif;
 	text-align: center;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 300px;
+	padding-right: 300px;
+	line-height: 35px;
 }
 
 /* Sections */
 .home {
 	overflow: hidden;
-	margin-bottom: 60px;
+	padding-bottom: 60px;
+	background-image: linear-gradient(to right, #c2dbf4, #fff, #fff, #fff, #c2dbf4);
 }
 
 .about {
