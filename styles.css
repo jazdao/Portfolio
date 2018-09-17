@@ -52,27 +52,27 @@ body {
 	height: 20%;
 	display: block;
 	float: left;
-	margin-left: 250px;
+	margin-left: 275px;
 	margin-top: 125px;
 }
 
 /* Headings */
 h1 {
-	float: right;
+	float: left;
 	font-size: 70px;
 	font-family: 'Megrim', cursive;
 	color: #17616b;
-	margin-right: 340px;
-	margin-top: 200px;
+	margin-left: 25px;
+	margin-top: 215px;
 	margin-bottom: 0;
 }
 
 h4 {
-	float: right;
+	float: left;
 	font-size: 18px;
 	font-family: Arial;
 	color: #00b6cb;
-	margin-right: 440px;
+	margin-left: 50px;
 	margin-top: 0;
 }
 
@@ -89,17 +89,19 @@ p {
 	font-size: 20px;
 	font-family: Arial;
 	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 /* Sections */
 .home {
-	overflow: auto;
+	overflow: hidden;
+	margin-bottom: 60px;
 }
 
 .about {
 	display: inline-block;
 	background-color: #12a3b4;
 	color: #fff; 
-	margin-top: 60px;
 	width: 100%;
 }
