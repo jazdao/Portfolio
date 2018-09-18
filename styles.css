@@ -150,6 +150,7 @@ small {
 	overflow: hidden;
 	float: left;
 	margin-left: 27%;
+	text-align: center;
 }
 
 .s2 {
@@ -157,6 +158,7 @@ small {
 	overflow: hidden;
 	float:left;
 	margin-left: 100px;
+	text-align: center;
 }
 
 .s3 {
@@ -164,6 +166,7 @@ small {
 	overflow: hidden;
 	float: left;
 	margin-left: 100px;
+	text-align: center;
 }
 
 
