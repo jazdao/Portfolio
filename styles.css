@@ -137,10 +137,11 @@ p {
 	display: inline-block;
 	color: #164d56;
 	width: 100%;
-	padding-bottom: 60px;
+	padding-bottom: 100px;
 }
 
 .project1 {
+	overflow: hidden;
 	display: block;
 	width: 500px;
 	float: left;
@@ -159,6 +160,7 @@ p {
 }
 
 .project2 {
+	overflow: hidden;
 	display: block;
 	width: 525px;
 	float: left;
@@ -174,4 +176,13 @@ p {
 	border-width: 8px;
 	border-color: #00b6cb;
 	border-radius: 25px;
+}
+
+.contact {
+	overflow: hidden;
+	display: inline-block;
+	background-color: #164d56;
+	color: #fff; 
+	width: 100%;
+	padding-bottom: 60px;
 }
