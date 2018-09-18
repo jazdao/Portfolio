@@ -145,8 +145,33 @@ p {
 	width: 500px;
 	float: left;
 	margin-left: 100px;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 0;
 }
 
-.project1 a:hover {
-	width: 510px;
+.project1:hover {
+	width: 485px;
+	border-style: inset;
+	border-width: 8px;
+	border-color: #00b6cb;
+	border-radius: 25px;
+}
+
+.project2 {
+	display: block;
+	width: 525px;
+	float: left;
+	margin-left: 50px;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 0;
+}
+
+.project2:hover {
+	width: 515px;
+	border-style: inset;
+	border-width: 8px;
+	border-color: #00b6cb;
+	border-radius: 25px;
 }
