@@ -26,7 +26,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 	margin: 15px 30px;
-	line-height: 65px;
+	line-height: 68px;
 	font-size: 20px;
 }
 
@@ -83,7 +83,7 @@ h4 {
 }
 
 h2 {
-	font-size: 50px;
+	font-size: 55px;
 	font-family: Megrim, cursive;
 	border-bottom: solid;
 	border-bottom-width: 2px;
@@ -107,6 +107,15 @@ p {
 	line-height: 35px;
 }
 
+/* Misc. */
+.what {
+	margin-top: 75px;
+}
+
+.hProject {
+	margin-bottom: 50px;
+}
+
 /* Sections */
 .home {
 	overflow: hidden;
@@ -115,8 +124,29 @@ p {
 }
 
 .about {
+	overflow: hidden;
 	display: inline-block;
 	background-color: #12a3b4;
 	color: #fff; 
 	width: 100%;
+	padding-bottom: 60px;
+}
+
+.projects {
+	overflow: hidden;
+	display: inline-block;
+	color: #164d56;
+	width: 100%;
+	padding-bottom: 60px;
+}
+
+.project1 {
+	display: block;
+	width: 500px;
+	float: left;
+	margin-left: 100px;
+}
+
+.project1 a:hover {
+	width: 510px;
 }

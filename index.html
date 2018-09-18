@@ -23,7 +23,7 @@
 		<meta name="robots" content="index, nofollow, noarchive"/>
 
 		<!-- JavaScript file (.js) -->
-		<script href="colorchange.js" type="text/javascript" language="JavaScript"></script>
+		<script href="activescroll.js" type="text/javascript" language="JavaScript"></script>
 
 		<!--Stylesheet -->
 		<link href="styles.css" rel="stylesheet" type="text/css"/>
@@ -38,63 +38,9 @@
 	<body>
 
 		<!-- If JS deactivated, prompt message: -->
-			<noscript>Please enable JavaScript.</noscript>
+		<noscript>Please enable JavaScript.</noscript>
 
-		<!-- Line break 
-		<hr>
-		-->
-			
-		<!-- Block quote (indents)
-			<blockquote cite=""></blockquote>
-		-->
-
-		<!-- Quotes
-			<q cite=""></q>
-		-->
-
-			<!-- Pastes information without executing any codes and keeping white space
-			<pre> 
-				
-			(\)_(/)
-			(='v'=)
-			(")_(")
-
-			<code></code>
-
-			</pre>
-		-->
-
-		<!--
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script>
-			$(document).ready(function(){
-			// Add smooth scrolling to all links
-  				$("a").on('click', function(event) {
-
-    			// Make sure this.hash has a value before overriding default behavior
-    				if (this.hash !== "") {
-      				// Prevent default anchor click behavior
-      					event.preventDefault();
-
-      					// Store hash
-      					var hash = this.hash;
-
-      					// Using jQuery's animate() method to add smooth page scroll
-      					// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      					$('html, body').animate({
-        				scrollTop: $(hash).offset().top
-      				}, 800, function(){
-
-        					// Add hash (#) to URL when done scrolling (default click behavior)
-        					window.location.hash = hash;
-      					});
-    				} // End if
-  				});
-			});
-		</script>
-		-->
-
-
+		<!-- Navigation -->
 		<nav class="topnav">
 			<a class="active" href="#home">h o m e</a>
 			<a href="#about">a b o u t</a>
@@ -102,25 +48,74 @@
 			<a href="#contact">c o n t a c t</a>
 		</nav>
 
-		<div class="home" id="home">
-			<img class="logo" src="logo.png" alt="logo">
+
+		<!-- Sections -->
+		<div class="content">
+
+			<!-- Home -->
+			<section id="home" class="home">
+				<img class="logo" src="logo.png" alt="logo">
 		
-			<h1>Jasmine Dao</h1>
-			<h4>an aspiring full stack developer</h4>
-		</div>
+				<h1>Jasmine Dao</h1>
+				<h4>an aspiring full stack developer</h4>
+			</section>
 
-		<div class="about" id="about">
-			 <h2>About Me</h2>
+			<!-- About -->
+			<section id="about" class="about">
+			 	<h2>About Me</h2>
 
-			 <h3>WHO?</h3>
+				<h3>WHO AM I?</h3>
 
-			<p>
-				I'm an <b>avid programmer</b> and <b>aspiring web and mobile developer</b> with an interest in creative pursuits and an unfortunate obsession with cats.  
-			</p>
+				<p>
+					My name is <b>Jasmine Dao</b>, and I'm an <b>avid programmer</b> and <b>aspiring full stack developer</b> with an interest in creative pursuits and an unfortunate obsession with cats.  
+				</p>
 
-			<p>
-				I'm <b>passionate</b> about technology, art, and music.  You can find me reading, drawing, hacking, or playing piano in my free time. 
-			</p>
+				<p>
+					I'm <b>passionate</b> about technology, music, and design.  You can find me reading, drawing, hacking, or playing piano in my free time. 
+				</p>
+
+				<h3 class="what">WHAT DO I DO?</h3>
+
+				<p>
+					I'm currently studying <b>Computer Science</b> at the California State Polytechnic University of Pomona.
+				</p>
+
+				<p>
+					At the moment, my <b>goals</b> are to learn more about web development, mobile development, and machine learning.
+				</p>
+
+				<h3 class="what">WHAT CAN I DO?</h3>
+				<p>
+					<b>Programming Languages:</b>
+					<br>Java
+					<br>Python
+
+					<br><br><b>Prototyping:</b>
+					<br>HTML5
+					<br>CSS3
+					<br>XML
+
+					<br><br><b>Currently Learning:</b>
+					<br>JavaScript
+					<br>Swift
+					<br>SQL
+					<br>PHP
+				</p>
+			</section>
+
+			<!-- Projects -->
+			<section id="projects" class="projects">
+				<h2 class="hProject">Projects</h2>
+
+				<a href="www.jasminedao.me">
+					<img class="project1" src="project1.jpg" alt="Personal Website">
+				</a>
+			</section>
+
+			<!-- Contact -->
+			<section id="contact" class="contact">
+
+			</section>
 		</div>
 
 </html>
