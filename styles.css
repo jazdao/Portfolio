@@ -60,6 +60,14 @@ body {
 	margin-top: 110px;
 }
 
+.logo2 {
+	width: 15%;
+	height: 15%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 /* Headings */
 h1 {
 	font-size: 70px;
@@ -107,6 +115,11 @@ p {
 	line-height: 35px;
 }
 
+small {
+	line-height: 30px;
+	font-family: 'Poppins', sans-serif;
+}
+
 /* Misc. */
 .what {
 	margin-top: 75px;
@@ -131,6 +144,29 @@ p {
 	width: 100%;
 	padding-bottom: 60px;
 }
+
+.s1 {
+	display: block;
+	overflow: hidden;
+	float: left;
+	margin-left: 27%;
+}
+
+.s2 {
+	display: block;
+	overflow: hidden;
+	float:left;
+	margin-left: 100px;
+}
+
+.s3 {
+	display: block;
+	overflow: hidden;
+	float: left;
+	margin-left: 100px;
+}
+
+
 
 .projects {
 	overflow: hidden;
@@ -181,7 +217,7 @@ p {
 .contact {
 	overflow: hidden;
 	display: inline-block;
-	background-color: #164d56;
+	background-color: #13393e;
 	color: #fff; 
 	width: 100%;
 	padding-bottom: 60px;

@@ -24,11 +24,11 @@
 
 	function onScroll(event){
 		var scrollPosition = $(document).scrollTop();
-		$('.topnav a').each(function () {
+		$('.topnav').each(function () {
 			var currentLink = $(this);
 			var refElement = $(currentLink.attr("href"));
 			if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
-				$('.topnav a').removeClass("active");
+				$('.topnav').removeClass("active");
 				currentLink.addClass("active");
 			}
 			else{
