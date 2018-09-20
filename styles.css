@@ -135,6 +135,22 @@ small {
 	font-family: 'Poppins', sans-serif;
 }
 
+ol {
+	list-style-position: outside;
+	font-size: 22px;
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+	line-height: 40px;
+	color: #17616b;
+	overflow-wrap: normal;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+li {
+	padding-bottom: 20px;
+}
+
 /* Misc. */
 .what {
 	margin-top: 75px;
@@ -321,6 +337,7 @@ small {
 	display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 8%;
     width: 25%;
 	border-style: solid;
 	border-color: #188291;
