@@ -7,6 +7,10 @@ body {
 	margin: 0;
 }
 
+.about_body {
+	background-image: linear-gradient(to right, #c2dbf4, #fff, #fff, #fff, #c2dbf4);
+}
+
 div {
 	word-wrap: break-word;
 }
