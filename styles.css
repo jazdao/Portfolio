@@ -36,7 +36,7 @@ div {
 	text-decoration: none;
 	margin: 15px 30px;
 	line-height: 68px;
-	font-size: 20px;
+	font-size: 1em;
 }
 
 .topnav a:hover {
@@ -85,7 +85,7 @@ div {
 
 /* Headings */
 h1 {
-	font-size: 70px;
+	font-size: 3.5em;
 	font-family: 'Megrim', cursive;
 	color: #17616b;
 	margin-left: auto;
@@ -97,7 +97,7 @@ h1 {
 }
 
 h4 {
-	font-size: 18px;
+	font-size: .9em;
 	font-family: 'Poppins', sans-serif;
 	color: #00b6cb;
 	margin-left: auto;
@@ -107,7 +107,7 @@ h4 {
 }
 
 h2 {
-	font-size: 55px;
+	font-size: 2.8em;
 	font-family: Megrim, cursive;
 	border-bottom: solid;
 	border-bottom-width: 2px;
@@ -117,14 +117,14 @@ h2 {
 }
 
 h3 {
-	font-size: 35px;
+	font-size: 1.8em;
 	text-align: center;
 	font-family: 'Megrim', cursive;
 	margin-bottom: 0;
 }
 
 p {
-	font-size: 22px;
+	font-size: 1.1em;
 	font-family: 'Poppins', sans-serif;
 	text-align: center;
 	padding-left: 300px;
@@ -141,7 +141,7 @@ small {
 
 ol {
 	list-style-position: outside;
-	font-size: 22px;
+	font-size: 1.1em;
 	font-family: 'Poppins', sans-serif;
 	text-align: left;
 	line-height: 40px;
@@ -174,7 +174,7 @@ li {
 .about {
 	overflow: hidden;
 	display: inline-block;
-	background-color: #12a3b4;
+	background-color: #00b6cb;
 	color: #fff; 
 	width: 100%;
 	padding-bottom: 60px;
@@ -329,12 +329,14 @@ li {
 	margin-right: auto;
 	margin-top: 12%;
 	text-align: center;
-	font-size: 22px;
+	font-size: 1.1em;
 	font-family: 'Poppins', sans-serif;
 }
 
 .moreabout:hover {
 	color: #fed500;
+	font-size: 1.15em;
+	width: 19%;
 }
 
 .me {
