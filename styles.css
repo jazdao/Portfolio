@@ -204,14 +204,12 @@ li {
 	text-align: center;
 }
 
-
-
 .projects {
 	overflow: hidden;
 	display: inline-block;
 	color: #164d56;
 	width: 100%;
-	padding-bottom: 6em;
+	padding-bottom: 4em;
 }
 
 .projects_list {
@@ -231,6 +229,7 @@ li {
 	border-style: solid;
 	border-radius: 10px;
 	border-width: 0;
+	margin-bottom: 3%;
 }
 
 .project1:hover {
@@ -317,6 +316,7 @@ li {
 	border-style: solid;
 	border-radius: 10px;
 	border-width: 0;
+	margin-bottom: 3%;
 }
 
 .project2:hover {
