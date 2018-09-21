@@ -23,7 +23,7 @@ div {
 	left: 0;
 	background-color: #164d56;
 	overflow: hidden;
-	height: 70px;
+	height: 3.5em;
 	text-align: center;
 	font-family: Megrim, cursive;
 	z-index: 1;
@@ -34,8 +34,8 @@ div {
 	color: #fff;
 	text-align: center;
 	text-decoration: none;
-	margin: 15px 30px;
-	line-height: 68px;
+	margin: .4em 1.5em;
+	line-height: 3.45em;
 	font-size: 1em;
 }
 
@@ -43,16 +43,16 @@ div {
 	color: #a0e3f0;
 	border-bottom: solid;
 	border-bottom-color: #fff;
-	border-bottom-width: 1px;
-	padding-bottom: 7px;
+	border-bottom-width: .08em;
+	padding-bottom: .31em;
 }
 
 .topnav a.active {
 	color: #a0e3f0;
 	border-bottom: solid;
 	border-bottom-color: #fff;
-	border-bottom-width: 1px;
-	padding-bottom: 7px;
+	border-bottom-width: .08em;
+	padding-bottom: .31em;
 }
 
 .topnav a.active:hover {
@@ -66,7 +66,7 @@ div {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 110px;
+	margin-top: 5.6em;
 }
 
 .logo2 {
@@ -75,7 +75,7 @@ div {
 	margin-left: 38%;
 	border-style: solid;
 	border-color: #12a3b4;
-	border-width: 10px;
+	border-width: .5em;
 	border-radius: 100%;
 }
 
@@ -90,7 +90,7 @@ h1 {
 	color: #17616b;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 15px;
+	margin-top: .25em;
 	margin-bottom: 0;
 	text-align: center;
 	z-index: 1;
@@ -110,8 +110,8 @@ h2 {
 	font-size: 2.8em;
 	font-family: Megrim, cursive;
 	border-bottom: solid;
-	border-bottom-width: 2px;
-	padding-bottom: 2px;
+	border-bottom-width: .04em;
+	padding-bottom: .04em;
 	text-align: center;
 	z-index: 1;
 }
@@ -127,15 +127,15 @@ p {
 	font-size: 1.1em;
 	font-family: 'Poppins', sans-serif;
 	text-align: center;
-	padding-left: 300px;
-	padding-right: 300px;
-	line-height: 35px;
+	padding-left: 13.1em;
+	padding-right: 13.1em;
+	line-height: 1.7em;
 	color: #17616b;
 	overflow-wrap: normal;
 }
 
 small {
-	line-height: 30px;
+	line-height: 1.7em;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -144,7 +144,7 @@ ol {
 	font-size: 1.1em;
 	font-family: 'Poppins', sans-serif;
 	text-align: left;
-	line-height: 40px;
+	line-height: .3em;
 	color: #17616b;
 	overflow-wrap: normal;
 	margin-left: 20%;
@@ -152,22 +152,22 @@ ol {
 }
 
 li {
-	padding-bottom: 20px;
+	padding-bottom: 1.4em;
 }
 
 /* Misc. */
 .what {
-	margin-top: 75px;
+	margin-top: 2.5em;
 }
 
 .hProject {
-	margin-bottom: 50px;
+	margin-bottom: 1.2em;
 }
 
 /* Sections */
 .home {
 	overflow: hidden;
-	padding-bottom: 60px;
+	padding-bottom: 2.5em;
 	background-image: linear-gradient(to right, #c2dbf4, #fff, #fff, #fff, #c2dbf4);
 }
 
@@ -177,7 +177,7 @@ li {
 	background-color: #00b6cb;
 	color: #fff; 
 	width: 100%;
-	padding-bottom: 60px;
+	padding-bottom: 2.8em;
 }
 
 .s1 {
@@ -192,7 +192,7 @@ li {
 	display: block;
 	overflow: hidden;
 	float:left;
-	margin-left: 100px;
+	margin-left: 7em;
 	text-align: center;
 }
 
@@ -200,7 +200,7 @@ li {
 	display: block;
 	overflow: hidden;
 	float: left;
-	margin-left: 100px;
+	margin-left: 7em;
 	text-align: center;
 }
 
@@ -211,7 +211,7 @@ li {
 	display: inline-block;
 	color: #164d56;
 	width: 100%;
-	padding-bottom: 100px;
+	padding-bottom: 6em;
 }
 
 .projects_list {
@@ -219,7 +219,7 @@ li {
 	display: inline-block;
 	color: #164d56;
 	width: 100%;
-	padding-bottom: 100px;
+	padding-bottom: 5.5em;
 }
 
 .project1 {
@@ -227,7 +227,7 @@ li {
 	display: block;
 	width: 500px;
 	float: left;
-	margin-left: 100px;
+	margin-left: 5em;
 	border-style: solid;
 	border-radius: 10px;
 	border-width: 0;
@@ -250,7 +250,7 @@ li {
 
 .website_img {
 	display: inline-block;
-	width: 500px;
+	width: 40%;
 	float: left;
 	margin-left: 10%;
 	padding-bottom: 4%;
