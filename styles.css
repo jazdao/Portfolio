@@ -161,7 +161,7 @@ li {
 }
 
 .hProject {
-	margin-bottom: 1.2em;
+	margin-bottom: .6em;
 }
 
 /* Sections */
@@ -209,7 +209,7 @@ li {
 	display: inline-block;
 	color: #164d56;
 	width: 100%;
-	padding-bottom: 4em;
+	padding-bottom: 2em;
 }
 
 .projects_list {
@@ -217,27 +217,37 @@ li {
 	display: inline-block;
 	color: #164d56;
 	width: 100%;
-	padding-bottom: 5.5em;
+	padding-bottom: 5em;
+}
+
+.row1 {
+	width: 100%;
+	text-align: center;
+}
+
+.row2 {
+	width: 100%;
+	text-align: center;
 }
 
 .project1 {
 	overflow: hidden;
-	display: block;
-	width: 500px;
-	float: left;
-	margin-left: 5em;
+	display: inline-block;
+	width: 40%;
+	float: center;
 	border-style: solid;
-	border-radius: 10px;
+	border-radius: 25px;
 	border-width: 0;
-	margin-bottom: 3%;
+	margin: 2%;
 }
 
 .project1:hover {
-	width: 485px;
+	width: 38%;
 	border-style: inset;
 	border-width: 8px;
 	border-color: #00b6cb;
 	border-radius: 25px;
+	margin: 2%;
 }
 
 .personal {
@@ -309,22 +319,22 @@ li {
 
 .project2 {
 	overflow: hidden;
-	display: block;
-	width: 525px;
-	float: left;
-	margin-left: 50px;
+	display: inline-block;
+	width: 42%;
+	float: center;
 	border-style: solid;
-	border-radius: 10px;
+	border-radius: 25px;
 	border-width: 0;
-	margin-bottom: 3%;
+	margin: 2%;
 }
 
 .project2:hover {
-	width: 515px;
+	width: 40%;
 	border-style: inset;
 	border-width: 8px;
 	border-color: #00b6cb;
 	border-radius: 25px;
+	margin: 2%;
 }
 
 .contact {
@@ -373,4 +383,24 @@ li {
 	margin-left: 1%;
 	margin-right: 1%;
 	margin-top: 4%;
+}
+
+.project3 {
+	overflow: hidden;
+	display: inline-block;
+	width: 40%;
+	float: center;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 1px;
+	margin: 2%;
+}
+
+.project3:hover {
+	width: 38%;
+	border-style: inset;
+	border-width: 8px;
+	border-color: #00b6cb;
+	border-radius: 25px;
+	margin: 2%;
 }
