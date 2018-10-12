@@ -1,4 +1,5 @@
 html {
+	overflow: scroll;
   scroll-behavior: smooth;
 }
 
@@ -22,7 +23,7 @@ div {
 	right: 0;
 	left: 0;
 	background-color: #164d56;
-	overflow: hidden;
+	overflow: auto;
 	height: 3.5em;
 	text-align: center;
 	font-family: Megrim, cursive;
@@ -172,13 +173,13 @@ li {
 
 /* Sections */
 .home {
-	overflow: hidden;
+	overflow: auto;
 	padding-bottom: 2.5em;
 	background-image: linear-gradient(to right, #c2dbf4, #fff, #fff, #fff, #c2dbf4);
 }
 
 .about {
-	overflow: hidden;
+	overflow: auto;
 	display: inline-block;
 	float: center;
 	background-color: #00b6cb;
@@ -196,7 +197,7 @@ li {
 .s1 {
 	width: 15%;
 	display: inline-block;
-	overflow: hidden;
+	overflow: auto;
 	float: center;
 	text-align: center;
 	vertical-align: text-top;
@@ -205,7 +206,7 @@ li {
 .s2 {
 	width: 15%;
 	display: inline-block;
-	overflow: hidden;
+	overflow: auto;
 	float:center;
 	text-align: center;
 	vertical-align: text-top;
@@ -214,7 +215,7 @@ li {
 .s3 {
 	width: 15%;
 	display: inline-block;
-	overflow: hidden;
+	overflow: auto;
 	float: center;
 	text-align: center;
 	vertical-align: text-top;
@@ -222,7 +223,7 @@ li {
 
 .projects {
 	text-align: center;
-	overflow: hidden;
+	overflow: auto;
 	display: inline-block;
 	color: #164d56;
 	width: 100%;
@@ -231,7 +232,7 @@ li {
 
 .projects_list {
 	text-align: center;
-	overflow: hidden;
+	overflow: auto;
 	display: inline-block;
 	color: #164d56;
 	width: 100%;
@@ -249,7 +250,7 @@ li {
 }
 
 .project1 {
-	overflow: hidden;
+	overflow: auto;
 	display: inline-block;
 	width: 40%;
 	float: center;
@@ -336,7 +337,7 @@ li {
 }
 
 .project2 {
-	overflow: hidden;
+	overflow: auto;
 	display: inline-block;
 	width: 42%;
 	float: center;
@@ -356,7 +357,7 @@ li {
 }
 
 .project3 {
-	overflow: hidden;
+	overflow: auto;
 	display: inline-block;
 	width: 40%;
 	float: center;
@@ -376,7 +377,7 @@ li {
 }
 
 .contact {
-	overflow: hidden;
+	overflow: auto;
 	display: inline-block;
 	background-color: #13393e;
 	color: #fff; 
