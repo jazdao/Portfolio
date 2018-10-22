@@ -701,7 +701,7 @@ li {
 	}
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
 	.topnav a {
 		margin: .2em 1em;
 	}
@@ -850,7 +850,28 @@ li {
 	}
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 500px) {
+	.topnav a {
+		margin: .2em 1em;
+	}
+
+	.logo {
+		width: 55%;
+		height: 55%;
+	}
+
+	.logo2 {
+		width: 50%;
+		height: 50%;
+		margin-left: 23%;
+	}
+
+	.me {
+		margin-top: 100px;
+		margin-bottom: 10%;
+		width: 70%;
+	}
+
 	h1 {
 		font-size: 3em;
 	}
@@ -885,6 +906,96 @@ li {
 		width: 100%;
 		padding-bottom: 30px;
 		font-size: 1.5em;
+	}
+
+	.moreabout {
+		width: 100%;
+	}
+
+	.moreabout:hover {
+		width: 100%;
+	}
+
+	.project1 {
+		width: 80%;
+		margin-bottom: 30px;
+	}
+
+	.project1:hover {
+		width: 80%;
+		margin-bottom: 30px;
+	}
+
+	.project2 {
+		width: 80%;
+		margin-bottom: 30px;
+	}
+
+	.project2:hover {
+		width: 80%;
+		margin-bottom: 30px;
+	}
+
+	.project3 {
+		width: 80%;
+		margin-bottom: 20px;
+	}
+
+	.project3:hover {
+		width: 80%;
+		margin-bottom: 20px;
+	}
+
+	.personal {
+		padding-top: 13%;
+		padding-bottom: 5%;
+		font-size: 2em;
+	}
+
+	.website_img {
+		width: 80%;
+		float: center;
+		padding-bottom: 10%;
+	}
+
+	.straightup_img {
+		width: 80%;
+		float: center;
+		padding-bottom: 5%;
+	}
+
+	.appdiv {
+		padding-left: 10%;
+	}
+
+	.appdemo {
+		width: 100%;
+		float: center;
+		padding-bottom: 10%;
+	}
+
+	.appcomments {
+		display: inline-block;
+		text-align: left;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+
+	.website_about {
+		float: center;
+		text-align: left;
+	}
+
+	.comments {
+		margin: .5%;
+		text-align: center;
+		float: left;
+	}
+
+	.straightup_comments {
+		text-align: center;
+		float: left;
+		margin-bottom: 3%
 	}
 }
 
