@@ -423,7 +423,7 @@ li {
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 	.logo {
 		width: 25%;
 		height: 25%;
@@ -532,7 +532,7 @@ li {
 }
 
 
-@media only screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
 	.topnav a {
 		font-size: .75em;
 		line-height: 4.5em;
@@ -701,7 +701,7 @@ li {
 	}
 }
 
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
 	.topnav a {
 		margin: .2em 1em;
 	}
