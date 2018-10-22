@@ -850,3 +850,41 @@ li {
 	}
 }
 
+@media screen and (max-width: 300px) {
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+
+	h3 {
+		font-size: 1em;
+	}
+
+	p {
+		padding-left: 1em;
+		padding-right: 1em;
+		font-size: .8em;
+	}
+
+	.s1 {
+		width: 100%;
+		padding-bottom: 30px;
+		font-size: 1.5em;
+	}
+
+	.s2 {
+		width: 100%;
+		padding-bottom: 30px;
+		font-size: 1.5em;
+	}
+
+	.s3 {
+		width: 100%;
+		padding-bottom: 30px;
+		font-size: 1.5em;
+	}
+}
+
