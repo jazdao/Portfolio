@@ -8,6 +8,10 @@ body {
 	margin: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
 .about_body {
 	background-image: linear-gradient(to right, #c2dbf4, #fff, #fff, #fff, #c2dbf4);
 }
@@ -252,7 +256,7 @@ li {
 .project1 {
 	overflow: auto;
 	display: inline-block;
-	width: 40%;
+	width: 42%;
 	float: center;
 	border-style: solid;
 	border-radius: 25px;
@@ -261,7 +265,7 @@ li {
 }
 
 .project1:hover {
-	width: 38%;
+	width: 40%;
 	border-style: inset;
 	border-width: 8px;
 	border-color: #00b6cb;
@@ -359,7 +363,7 @@ li {
 .project3 {
 	overflow: auto;
 	display: inline-block;
-	width: 40%;
+	width: 42%;
 	float: center;
 	border-style: solid;
 	border-radius: 25px;
@@ -368,7 +372,27 @@ li {
 }
 
 .project3:hover {
-	width: 38%;
+	width: 40%;
+	border-style: inset;
+	border-width: 8px;
+	border-color: #00b6cb;
+	border-radius: 25px;
+	margin: 2%;
+}
+
+.project4 {
+	overflow: auto;
+	display: inline-block;
+	width: 42%;
+	float: center;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 1px;
+	margin: 2%;
+}
+
+.project4:hover {
+	width: 40%;
 	border-style: inset;
 	border-width: 8px;
 	border-color: #00b6cb;
@@ -506,7 +530,7 @@ li {
 
 	.appcomments {
 		display: inline-block;
-		text-align: left;
+		text-align: center;
 		padding-left: 5%;
 		padding-right: 5%;
 	}
@@ -617,34 +641,14 @@ li {
 		margin-bottom: 30px;
 	}
 
-	.project1 {
+	.project4 {
 		width: 80%;
 		margin-bottom: 30px;
 	}
 
-	.project1:hover {
+	.project4:hover {
 		width: 80%;
 		margin-bottom: 30px;
-	}
-
-	.project2 {
-		width: 80%;
-		margin-bottom: 30px;
-	}
-
-	.project2:hover {
-		width: 80%;
-		margin-bottom: 30px;
-	}
-
-	.project3 {
-		width: 80%;
-		margin-bottom: 20px;
-	}
-
-	.project3:hover {
-		width: 80%;
-		margin-bottom: 20px;
 	}
 
 	.personal {
@@ -797,6 +801,16 @@ li {
 		margin-bottom: 20px;
 	}
 
+	.project4 {
+		width: 80%;
+		margin-bottom: 20px;
+	}
+
+	.project4:hover {
+		width: 80%;
+		margin-bottom: 20px;
+	}
+
 	.personal {
 		padding-top: 13%;
 		padding-bottom: 5%;
@@ -942,6 +956,16 @@ li {
 	}
 
 	.project3:hover {
+		width: 80%;
+		margin-bottom: 20px;
+	}
+
+	.project4 {
+		width: 80%;
+		margin-bottom: 20px;
+	}
+
+	.project4:hover {
 		width: 80%;
 		margin-bottom: 20px;
 	}

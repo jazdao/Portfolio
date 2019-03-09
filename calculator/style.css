@@ -1,0 +1,172 @@
+body {
+	font-family: arial;
+}
+
+.calculator {
+	width: 25em;
+}
+
+.display {
+	background-color: #20214f;
+	display: inline-block;
+	width: 100%;
+}
+
+#screen {
+	text-align: right;
+	font-size: 1.75em;
+	padding-right: .75em;
+	color: white;
+}
+
+.keys {
+	text-align: center;
+	font-size: 1.5em;
+	float: left;
+	color: #20214f;
+}
+
+.operators {
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+	color: white;
+}
+
+#plus {
+	background-color: #71cddd;
+	padding: .5em;
+	display: table-cell;
+}
+
+#minus {
+	background-color: #00b6cb;
+	padding: .5em;
+	display: table-cell;
+}
+
+#multiply {
+	background-color: #12a3b4;
+	padding: .5em;
+	display: table-cell;
+}
+
+#divide {
+	background-color: #188291;
+	padding: .5em;
+	display: table-cell;
+}
+
+.equalsign {
+	float: right;
+	background-color: #00b6cb;
+	display: table;
+	table-layout: fixed;
+	width: 25%;
+	height: 8.55em;
+}
+
+#equal {
+	padding: .5em;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.operands1 {
+	width: 75%;
+	display: table;
+	table-layout: fixed;
+}
+
+#seven {
+	padding: .5em;
+	display: table-cell;
+	background-color: #e1ebf7;
+}
+
+#eight {
+	padding: .5em;
+	display: table-cell;
+	background-color: #c8daf4;
+}
+
+#nine {
+	padding: .5em;
+	display: table-cell;
+	background-color: #e1ebf7;
+}
+
+.operands2 {
+	width: 75%;
+	display: table;
+	table-layout: fixed;
+}
+
+#four {
+	padding: .5em;
+	display: table-cell;
+	background-color: #c8daf4;
+}
+
+#five {
+	padding: .5em;
+	display: table-cell;
+	background-color: #e1ebf7;
+}
+
+#six {
+	padding: .5em;
+	display: table-cell;
+	background-color: #c8daf4;
+}
+
+.operands3 {
+	width: 75%;
+	display: table;
+	table-layout: fixed;
+}
+
+#one {
+	padding: .5em;
+	display: table-cell;
+	background-color: #e1ebf7;
+}
+
+#two {
+	padding: .5em;
+	display: table-cell;
+	background-color: #c8daf4;
+}
+
+#three {
+	padding: .5em;
+	display: table-cell;
+	background-color: #e1ebf7;
+}
+
+.operands4 {
+	width: 75%;
+	display: table;
+	table-layout: fixed;
+}
+
+#c {
+	padding: .5em;
+	display: table-cell;
+	background-color: #12a3b4;
+	color: white;
+}
+
+#zero {
+	padding: .5em;
+	display: table-cell;
+	background-color: #e1ebf7;
+}
+
+#decimal {
+	padding: .5em;
+	display: table-cell;
+	background-color: #a0e3f0;
+}
+

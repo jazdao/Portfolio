@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+	
+	<head>
+		<title>Calculator</title>
+		<meta charset="utf-8"/>
+		<meta name="description" content="Calculator"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+	</head>
+
+	<body>
+		<div class="calculator">
+			<div class="display">
+				<p id="screen">0</p>
+			</div>
+
+			<div class="keys">
+				<div class="operators">
+					<div id="plus" onclick="calculate(this.id)">+</div>
+					<div id="minus" onclick="calculate(this.id)">-</div>
+					<div id="multiply" onclick="calculate(this.id)">*</div>
+					<div id="divide" onclick="calculate(this.id)">/</div>
+				</div>
+
+				<div class="equalsign">
+					<div id="equal" onclick="equal()">=</div>
+				</div>
+
+				<div class="operands1">
+					<div id="seven" onclick="display(this.id)">7</div>
+					<div id="eight" onclick="display(this.id)">8</div>
+					<div id="nine" onclick="display(this.id)">9</div>
+				</div>
+
+				<div class="operands2">
+					<div id="four" onclick="display(this.id)">4</div>
+					<div id="five" onclick="display(this.id)">5</div>
+					<div id="six" onclick="display(this.id)">6</div>
+				</div>
+
+				<div class="operands3">
+					<div id="one" onclick="display(this.id)">1</div>
+					<div id="two" onclick="display(this.id)">2</div>
+					<div id="three" onclick="display(this.id)">3</div>
+				</div>
+
+				<div class="operands4">
+					<div id="c" onclick="display(this.id)">C</div>
+					<div id="zero" onclick="display(this.id)">0</div>
+					<div id="decimal" onclick="display(this.id)">.</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="calculator.js" type="text/javascript"></script>
+	</body>
+
+</html>
