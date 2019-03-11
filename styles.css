@@ -88,7 +88,7 @@ div {
 	border-color: #e3bc13;
 }
 
-/* Headings */
+/* Text */
 h1 {
 	font-size: 3.5em;
 	font-family: 'Megrim', cursive;
@@ -99,16 +99,6 @@ h1 {
 	margin-bottom: 0;
 	text-align: center;
 	z-index: 1;
-}
-
-h4 {
-	font-size: .9em;
-	font-family: 'Poppins', sans-serif;
-	color: #00b6cb;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0;
-	text-align: center;
 }
 
 h2 {
@@ -126,6 +116,16 @@ h3 {
 	text-align: center;
 	font-family: 'Megrim', cursive;
 	margin-bottom: 0;
+}
+
+h4 {
+	font-size: .9em;
+	font-family: 'Poppins', sans-serif;
+	color: #00b6cb;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	text-align: center;
 }
 
 p {
@@ -162,11 +162,12 @@ li {
 	text-indent: 2%;
 }
 
+
+/*Misc*/
 .fun_facts {
 	background-color: #00b6cb;
 }
 
-/* Misc. */
 .what {
 	margin-top: 2.2em;
 }
@@ -175,7 +176,9 @@ li {
 	margin-bottom: .6em;
 }
 
-/* Sections */
+
+/* Home Sections */
+
 .home {
 	overflow: auto;
 	padding-bottom: 2.5em;
@@ -273,6 +276,66 @@ li {
 	margin: 2%;
 }
 
+.project2 {
+	overflow: auto;
+	display: inline-block;
+	width: 42%;
+	float: center;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 0;
+	margin: 2%;
+}
+
+.project2:hover {
+	width: 40%;
+	border-style: inset;
+	border-width: 8px;
+	border-color: #00b6cb;
+	border-radius: 25px;
+	margin: 2%;
+}
+
+.project3 {
+	overflow: auto;
+	display: inline-block;
+	width: 42%;
+	float: center;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 1px;
+	margin: 2%;
+}
+
+.project3:hover {
+	width: 40%;
+	border-style: inset;
+	border-width: 8px;
+	border-color: #00b6cb;
+	border-radius: 25px;
+	margin: 2%;
+}
+
+.project4 {
+	overflow: auto;
+	display: inline-block;
+	width: 42%;
+	float: center;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 1px;
+	margin: 2%;
+}
+
+.project4:hover {
+	width: 40%;
+	border-style: inset;
+	border-width: 8px;
+	border-color: #00b6cb;
+	border-radius: 25px;
+	margin: 2%;
+}
+
 .personal {
 	padding-top: 5%;
 	color: #fff;
@@ -338,66 +401,6 @@ li {
 
 .link {
 	color: #12a3b4;
-}
-
-.project2 {
-	overflow: auto;
-	display: inline-block;
-	width: 42%;
-	float: center;
-	border-style: solid;
-	border-radius: 25px;
-	border-width: 0;
-	margin: 2%;
-}
-
-.project2:hover {
-	width: 40%;
-	border-style: inset;
-	border-width: 8px;
-	border-color: #00b6cb;
-	border-radius: 25px;
-	margin: 2%;
-}
-
-.project3 {
-	overflow: auto;
-	display: inline-block;
-	width: 42%;
-	float: center;
-	border-style: solid;
-	border-radius: 25px;
-	border-width: 1px;
-	margin: 2%;
-}
-
-.project3:hover {
-	width: 40%;
-	border-style: inset;
-	border-width: 8px;
-	border-color: #00b6cb;
-	border-radius: 25px;
-	margin: 2%;
-}
-
-.project4 {
-	overflow: auto;
-	display: inline-block;
-	width: 42%;
-	float: center;
-	border-style: solid;
-	border-radius: 25px;
-	border-width: 1px;
-	margin: 2%;
-}
-
-.project4:hover {
-	width: 40%;
-	border-style: inset;
-	border-width: 8px;
-	border-color: #00b6cb;
-	border-radius: 25px;
-	margin: 2%;
 }
 
 .contact {
