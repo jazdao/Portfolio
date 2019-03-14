@@ -170,3 +170,9 @@ body {
 	background-color: #a0e3f0;
 }
 
+@media screen and (max-width: 600px) {
+	.calculator {
+		width: 100%;
+	}
+}
+
