@@ -189,6 +189,10 @@ li {
 	overflow: auto;
 	display: inline-block;
 	float: center;
+	background-image: url("images/butterfly-bg.png");
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
 	background-color: #00b6cb;
 	color: #fff; 
 	width: 100%;
