@@ -24,6 +24,7 @@ body {
 	font-size: 1.5em;
 	float: left;
 	color: #20214f;
+	cursor: pointer;
 }
 
 .operators {
@@ -39,10 +40,20 @@ body {
 	display: table-cell;
 }
 
+#plus:hover {
+	background-color: #a0e3f0;
+	color: #17616b;
+}
+
 #minus {
 	background-color: #00b6cb;
 	padding: .5em;
 	display: table-cell;
+}
+
+#minus:hover {
+	background-color: #a0e3f0;
+	color: #17616b;
 }
 
 #multiply {
@@ -51,10 +62,20 @@ body {
 	display: table-cell;
 }
 
+#multiply:hover {
+	background-color: #a0e3f0;
+	color: #17616b;
+}
+
 #divide {
 	background-color: #188291;
 	padding: .5em;
 	display: table-cell;
+}
+
+#divide:hover {
+	background-color: #a0e3f0;
+	color: #17616b;
 }
 
 .equalsign {
@@ -63,7 +84,7 @@ body {
 	display: table;
 	table-layout: fixed;
 	width: 25%;
-	height: 8.55em;
+	height: 8.68em;
 }
 
 #equal {
@@ -71,6 +92,11 @@ body {
 	color: white;
 	display: table-cell;
 	vertical-align: middle;
+}
+
+#equal:hover {
+	background-color: #a0e3f0;
+	color: #17616b;
 }
 
 .operands1 {
@@ -85,16 +111,31 @@ body {
 	background-color: #e1ebf7;
 }
 
+#seven:hover {
+	background-color: #b0bef3;
+	color: #17616b;
+}
+
 #eight {
 	padding: .5em;
 	display: table-cell;
 	background-color: #c8daf4;
 }
 
+#eight:hover {
+	background-color: #b0bef3;
+	color: #17616b;
+}
+
 #nine {
 	padding: .5em;
 	display: table-cell;
 	background-color: #e1ebf7;
+}
+
+#nine:hover {
+	background-color: #b0bef3;
+	color: #17616b;
 }
 
 .operands2 {
@@ -109,16 +150,31 @@ body {
 	background-color: #c8daf4;
 }
 
+#four:hover {
+	background-color: #b0bef3;
+	color: #17616b;
+}
+
 #five {
 	padding: .5em;
 	display: table-cell;
 	background-color: #e1ebf7;
 }
 
+#five:hover {
+	background-color: #b0bef3;
+	color: #17616b;
+}
+
 #six {
 	padding: .5em;
 	display: table-cell;
 	background-color: #c8daf4;
+}
+
+#six:hover {
+	background-color: #b0bef3;
+	color: #17616b;
 }
 
 .operands3 {
@@ -133,16 +189,31 @@ body {
 	background-color: #e1ebf7;
 }
 
+#one:hover {
+	background-color: #b0bef3;
+	color: #17616b;
+}
+
 #two {
 	padding: .5em;
 	display: table-cell;
 	background-color: #c8daf4;
 }
 
+#two:hover {
+	background-color: #b0bef3;
+	color: #17616b;
+}
+
 #three {
 	padding: .5em;
 	display: table-cell;
 	background-color: #e1ebf7;
+}
+
+#three:hover {
+	background-color: #b0bef3;
+	color: #17616b;
 }
 
 .operands4 {
@@ -158,16 +229,31 @@ body {
 	color: white;
 }
 
+#c:hover {
+	background-color: #a0e3f0;
+	color: #17616b;
+}
+
 #zero {
 	padding: .5em;
 	display: table-cell;
 	background-color: #e1ebf7;
 }
 
+#zero:hover {
+	background-color: #b0bef3;
+	color: #17616b;
+}
+
 #decimal {
 	padding: .5em;
 	display: table-cell;
 	background-color: #a0e3f0;
+}
+
+#decimal:hover {
+	background-color: #d1f0f7;
+	color: #17616b;
 }
 
 @media screen and (max-width: 600px) {
